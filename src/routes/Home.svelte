@@ -9,7 +9,7 @@
 </script>
 
 <Route path="/">
-    <div transition:fade class="px-6 py-24 md:(px-12)">
+    <div transition:fade class="px-6 py-32 md:(px-12) lg:(px-18)">
         <div class="w-full flex flex-col gap-y-8 md:(flex-row justify-between)">
             <Search/>
             <Filter />

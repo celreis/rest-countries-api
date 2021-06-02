@@ -6,7 +6,7 @@
  
 </script>
 
-<div class="px-6 mt-8 flex flex-col gap-12 md:(mt-0 grid grid-cols-4 gap-8 py-8 px-0)">
+<div class="px-6 mt-8 flex flex-col gap-12 md:(mt-0 grid grid-cols-4 gap-12 py-12 px-0 ) lg:(gap-18)">
 
     {#each $countries as country}
     <!-- Search country and filter by region -->
