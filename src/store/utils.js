@@ -13,14 +13,3 @@ export const borderName = (border, data) => {
   }
   return;
 };
-
-export async function fetchUrl(url, countryData) {
-  const countries = await fetch(url)
-    .then((res) => res.json())
-    .then((data) => {
-      countryData = data;
-    })
-    .catch((e) => console.log(e));
-
-  return countries;
-}
