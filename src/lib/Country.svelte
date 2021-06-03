@@ -5,7 +5,7 @@
 </script>
 
 
-<div transition:fade class="z-2 rounded-md overflow-hidden shadow-md bg-white dark:(bg-hex-2b3945 text-white)">
+<div transition:fade class="z-2 rounded-md overflow-hidden shadow-md bg-white dark:(bg-hex-2b3945 text-white) hover:(shadow-xl)">
     <figure class="object-cover">
         <img src={country.flag}
         class="w-screen md:(h-32) lg:(h-38)"
