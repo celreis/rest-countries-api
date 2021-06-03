@@ -13,7 +13,7 @@
 
     {#if country.name
     .toLowerCase()
-    .includes($searchRegion.searched)
+    .includes($searchRegion.searched.toLowerCase())
     && country.region
     .includes($searchRegion.region)}
 
